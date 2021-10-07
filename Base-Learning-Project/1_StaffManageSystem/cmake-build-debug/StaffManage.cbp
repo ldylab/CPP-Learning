@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/henry/CLionProjects/StaffManage/cmake-build-debug"/>
+				<Option working_dir="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/henry/CLionProjects/StaffManage/cmake-build-debug"/>
+				<Option working_dir="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/henry/CLionProjects/StaffManage/cmake-build-debug"/>
+				<Option working_dir="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StaffManage">
-				<Option output="/Users/henry/CLionProjects/StaffManage/cmake-build-debug/StaffManage" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/henry/CLionProjects/StaffManage/cmake-build-debug"/>
+				<Option output="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/StaffManage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffManage"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffManage"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StaffManage/fast">
-				<Option output="/Users/henry/CLionProjects/StaffManage/cmake-build-debug/StaffManage" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/henry/CLionProjects/StaffManage/cmake-build-debug"/>
+				<Option output="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/StaffManage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,47 +73,47 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffManage/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/CLionProjects/StaffManage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaffManage/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/boss.cpp">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/boss.cpp">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/boss.h">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/boss.h">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/employee.cpp">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/employee.cpp">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/employee.h">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/employee.h">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/main.cpp">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/main.cpp">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/manager.cpp">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/manager.cpp">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/manager.h">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/manager.h">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/worker.cpp">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/worker.cpp">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/worker.h">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/worker.h">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/workerManager.cpp">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/workerManager.cpp">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/workerManager.h">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/workerManager.h">
 			<Option target="StaffManage"/>
 		</Unit>
-		<Unit filename="/Users/henry/CLionProjects/StaffManage/CMakeLists.txt">
+		<Unit filename="/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

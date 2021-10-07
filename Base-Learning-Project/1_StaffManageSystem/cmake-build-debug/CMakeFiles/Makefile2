@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/henry/CLionProjects/StaffManage
+CMAKE_SOURCE_DIR = /Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/henry/CLionProjects/StaffManage/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/StaffManage.dir/clean
 CMakeFiles/StaffManage.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaffManage.dir/build.make CMakeFiles/StaffManage.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaffManage.dir/build.make CMakeFiles/StaffManage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/henry/CLionProjects/StaffManage/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target StaffManage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target StaffManage"
 .PHONY : CMakeFiles/StaffManage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StaffManage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/CLionProjects/StaffManage/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StaffManage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/CLionProjects/StaffManage/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/StaffManage.dir/rule
 
 # Convenience name for target.

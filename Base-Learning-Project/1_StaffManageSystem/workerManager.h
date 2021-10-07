@@ -43,6 +43,9 @@ public:
     //判断员工是否存在
     int IsExist(int id);
 
+    //修改员工
+    void Mod_Emp();
+
 public: // 成员属性
     int m_EmpNum;
 
