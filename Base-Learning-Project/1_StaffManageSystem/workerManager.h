@@ -46,6 +46,15 @@ public:
     //修改员工
     void Mod_Emp();
 
+    //查找职工
+    void Find_Emp();
+
+    //排序职工
+    void Sort_Emp();
+
+    //清空文件
+    void Clean_File();
+
 public: // 成员属性
     int m_EmpNum;
 
