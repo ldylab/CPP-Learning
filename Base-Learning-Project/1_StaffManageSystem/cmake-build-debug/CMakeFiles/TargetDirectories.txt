@@ -1,3 +1,0 @@
-/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/henry/Documents/CPPLearning/CPP-Learning/Base-Learning-Project/1_StaffManageSystem/cmake-build-debug/CMakeFiles/StaffManage.dir
