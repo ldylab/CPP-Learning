@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/BSTree.h
+queue
+/Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/queue
+
+/Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/main.cpp
+iostream
+-
+BSTree.h
+/Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/BSTree.h
+
