@@ -5,6 +5,8 @@
 #ifndef BSTREE_BSTREE_H
 #define BSTREE_BSTREE_H
 #include "queue"
+#include "string"
+#include "tools.h"
 using namespace std;
 
 template <typename T> struct BSNode {
@@ -31,12 +33,13 @@ public:
   ~BSTree();
 
   // 二叉树的遍历
-  void PreOrder();          // 前序遍历二叉树
-  void InOrder();           // 中序遍历二叉树
-  void PostOrder();         // 后续遍历二叉树
-  void LayerOrder();        // 层次遍历二叉树
-  void LayerOrderWithTag(); // 层次遍历二叉树
-  void PreOrderSave();      // 前序遍历储存二叉树
+  void PreOrder();                           // 前序遍历二叉树
+  void InOrder();                            // 中序遍历二叉树
+  void PostOrder();                          // 后续遍历二叉树
+  void LayerOrder();                         // 层次遍历二叉树
+  void LayerOrderWithTag();                  // 层次遍历二叉树
+  void PreOrderSave(string &string_to_save); // 前序遍历储存二叉树
+  void PreOrderRecover(string &string_to_save);
 
   // 二叉树查找（返回的是二叉树的node）
   BSNode<T> *SearchRecursion(T key); // 递归查找
@@ -67,7 +70,8 @@ private:
   void PostOrder(BSNode<T> *p);
   void LayerOrder(BSNode<T> *p);
   void LayerOrderWithTag(BSNode<T> *p);
-  void PreOrderSave(BSNode<T> *p);
+  void PreOrderSave(BSNode<T> *p, string &string_save);
+  void PreOrderRecover(BSNode<T> *p, string &string_save);
   T SearchMinimun(BSNode<T> *p);
   T SearchMaximum(BSNode<T> *p);
   void Destory(BSNode<T> *&p);
@@ -238,24 +242,41 @@ template <typename T> void BSTree<T>::PreOrder(BSNode<T> *tmp_node) {
 };
 
 // 前序遍历储存
-template <typename T> void BSTree<T>::PreOrderSave() { PreOrderSave(root_); };
-template <typename T> void BSTree<T>::PreOrderSave(BSNode<T> *tmp_node) {
+template <typename T> void BSTree<T>::PreOrderSave(string &string_to_save) {
+  PreOrderSave(root_, string_to_save);
+};
+template <typename T>
+void BSTree<T>::PreOrderSave(BSNode<T> *tmp_node, string &string_save) {
   if (tmp_node != nullptr) {
     // 打印根节点
-    cout << tmp_node->value;
-    cout << "!" << endl;
+    string_save = string_save + to_string(tmp_node->value) + "!";
     // 打印左子树
-    PreOrderSave(tmp_node->l_child);
+    PreOrderSave(tmp_node->l_child, string_save);
     if (tmp_node->l_child == nullptr) {
-      cout << "#!" << endl;
+      string_save = string_save + "#!";
     }
     // 打印右子树
-    PreOrderSave(tmp_node->r_child);
+    PreOrderSave(tmp_node->r_child, string_save);
     if (tmp_node->r_child == nullptr) {
-      cout << "#!" << endl;
+      string_save = string_save + "#!";
     }
   }
 };
+
+// 前向遍历恢复（还没写完）
+template <typename T> void BSTree<T>::PreOrderRecover(string &string_to_reco) {
+  PreOrderRecover(root_, string_to_reco);
+};
+template <typename T>
+void BSTree<T>::PreOrderRecover(BSNode<T> *tmp_node, string &string_reco) {
+  vector<string> vector_string_reco;
+
+  split(string_reco, vector_string_reco, "!");
+  for (vector<string>::const_iterator iter = vector_string_reco.begin();
+       iter != vector_string_reco.end(); ++iter) {
+    cout << *iter << endl;
+  }
+}
 
 // 中序遍历算法：左子树 ---> 根结点 ---> 右子树
 template <typename T> void BSTree<T>::InOrder() { InOrder(root_); };

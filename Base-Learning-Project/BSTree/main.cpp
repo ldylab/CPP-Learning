@@ -34,9 +34,12 @@ int main() {
     cout << "层次遍历（带标签）： " << endl;
     t.LayerOrderWithTag();
     */
-
+    string pre_order_string_save;
     cout << "前序遍历储存： " << endl;
-    t.PreOrderSave();
+    t.PreOrderSave(pre_order_string_save);
+    cout << pre_order_string_save << endl;
+
+    t.PreOrderRecover(pre_order_string_save);
 
     return 0;
 }

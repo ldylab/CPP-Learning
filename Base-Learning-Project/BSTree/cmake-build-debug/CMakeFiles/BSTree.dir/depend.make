@@ -3,4 +3,5 @@
 
 CMakeFiles/BSTree.dir/main.cpp.o: \
  ../BSTree.h \
- ../main.cpp
+ ../main.cpp \
+ ../tools.h
