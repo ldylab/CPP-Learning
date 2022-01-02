@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree
+CMAKE_SOURCE_DIR = /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/untitled/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/cmake-build-debug/CMakeFiles /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/untitled/cmake-build-debug/CMakeFiles /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/untitled/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/BSTree/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henry/Downloads/CPP-Learning/Base-Learning-Project/untitled/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,65 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BSTree
+# Target rules for targets named untitled
 
 # Build rule for target.
-BSTree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BSTree
-.PHONY : BSTree
+untitled: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled
+.PHONY : untitled
 
 # fast build rule for target.
-BSTree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSTree.dir/build.make CMakeFiles/BSTree.dir/build
-.PHONY : BSTree/fast
+untitled/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
+.PHONY : untitled/fast
 
-main.o: main.cpp.o
+main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSTree.dir/build.make CMakeFiles/BSTree.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cpp.i
+main.i: main.c.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSTree.dir/build.make CMakeFiles/BSTree.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSTree.dir/build.make CMakeFiles/BSTree.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-niuke_1_1.o: niuke_1_1.cpp.o
-.PHONY : niuke_1_1.o
-
-# target to build an object file
-niuke_1_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSTree.dir/build.make CMakeFiles/BSTree.dir/niuke_1_1.cpp.o
-.PHONY : niuke_1_1.cpp.o
-
-niuke_1_1.i: niuke_1_1.cpp.i
-.PHONY : niuke_1_1.i
-
-# target to preprocess a source file
-niuke_1_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSTree.dir/build.make CMakeFiles/BSTree.dir/niuke_1_1.cpp.i
-.PHONY : niuke_1_1.cpp.i
-
-niuke_1_1.s: niuke_1_1.cpp.s
-.PHONY : niuke_1_1.s
-
-# target to generate assembly for a file
-niuke_1_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSTree.dir/build.make CMakeFiles/BSTree.dir/niuke_1_1.cpp.s
-.PHONY : niuke_1_1.cpp.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -185,13 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... BSTree"
+	@echo "... untitled"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... niuke_1_1.o"
-	@echo "... niuke_1_1.i"
-	@echo "... niuke_1_1.s"
 .PHONY : help
 
 

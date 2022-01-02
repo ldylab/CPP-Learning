@@ -37,7 +37,8 @@ public:
   void InOrder();                            // 中序遍历二叉树
   void PostOrder();                          // 后续遍历二叉树
   void LayerOrder();                         // 层次遍历二叉树
-  void LayerOrderWithTag();                  // 层次遍历二叉树
+  void LayerOrderWithTag();                  // 层次遍历二叉树（带行结束的标签）
+  void LayerOrderWithTagWithoutParent();     // 层次遍历二叉树（带行结束的标签，不需要parent方法）
   void PreOrderSave(string &string_to_save); // 前序遍历储存二叉树
   void PreOrderRecover(string &string_to_save);
 
@@ -70,6 +71,7 @@ private:
   void PostOrder(BSNode<T> *p);
   void LayerOrder(BSNode<T> *p);
   void LayerOrderWithTag(BSNode<T> *p);
+  void LayerOrderWithTagWithoutParent(BSNode<T> *p);
   void PreOrderSave(BSNode<T> *p, string &string_save);
   void PreOrderRecover(BSNode<T> *p, string &string_save);
   T SearchMinimun(BSNode<T> *p);
@@ -317,6 +319,56 @@ template <typename T> void BSTree<T>::LayerOrder(BSNode<T> *tmp_node) {
     cout << node->value << endl;
   }
 };
+
+template <typename T> void BSTree<T>::LayerOrderWithTagWithoutParent() {
+  LayerOrderWithTagWithoutParent(root_);
+};
+
+// 层次遍历算法，打印标签，不需要parent
+template <typename T>
+void BSTree<T>::LayerOrderWithTagWithoutParent(BSNode<T> *tmp_node) {
+  // last 节点是上方的节点
+  // n_last 是遍历过程中记录的节点
+  BSNode<T> *last = nullptr;
+
+  // 创建一个queue
+  queue<BSNode<T> *> q_tmp_;
+  // 把首个root_节点塞入进去
+  q_tmp_.push(tmp_node);
+  last = tmp_node;
+
+  // 使用队列一个一个pop出来
+  while (q_tmp_.empty() != 1) {
+    // 获得此时的节点
+    BSNode<T> *node = q_tmp_.front();
+    q_tmp_.pop();
+
+    // 把其中的左右子节点一起塞入进去
+    if (node->l_child != nullptr) {
+      q_tmp_.push(node->l_child);
+    }
+    if (node->r_child != nullptr) {
+      q_tmp_.push(node->r_child);
+    }
+
+    cout << node->value << endl;
+
+    // 如果是根节点，就直接打印出来
+    if (last == node) {
+      cout << "#" << endl;
+      last = node;
+    } else if (last->r_child == node ||
+               last->l_child == node) { // 说明已经进入了最后一个节点
+      if (last->r_child == nullptr) {
+        cout << "#" << endl;
+        last = node;
+      } else if (last->r_child == node) {
+        cout << "#" << endl;
+        last = node;
+      }
+    }
+  }
+}
 
 // 层次遍历算法：
 template <typename T> void BSTree<T>::LayerOrderWithTag() {
