@@ -12,4 +12,4 @@
 
 阅读后收获良多，也将整理个人笔记如下（更新ing）：
 
-- [01重新认识C++](https://www.wolai.com/cS2NzGr856vGora6F226SY)
+- [01重新认识C++](https://github.com/ldylab/CPP-Learning/blob/main/CPP_Notes/C%2B%2B%E5%AE%9E%E6%88%98%E8%AF%BE%E7%A8%8B/C%2B%2B%E5%AE%9E%E6%88%98%E8%AF%BE%E7%A8%8B%E7%AC%AC%E4%B8%80%E8%8A%82%E7%AC%94%E8%AE%B0/%E7%BD%97%E5%89%91%E9%94%8B%E7%9A%84C%2B%2B%E5%AE%9E%E6%88%98%E8%AF%BE%E7%A8%8B-%E7%AC%AC%E4%B8%80%E8%8A%82%E8%AF%BE%E7%A8%8B.md)
